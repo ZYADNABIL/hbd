@@ -4,16 +4,27 @@ $(window).load(function(){
 });
 $('document').ready(function(){
 		var vw;
+		var wordGrouped = false; // بيبقى true بس لما نوصل لمرحلة تجميع الحروف (بعد Happy Birthday)
+
+		function positionBalloons(){
+			var width = $(window).width();
+			var gap = width < 480 ? 35 : (width < 768 ? 60 : 100); // مسافة أصغر في الشاشات الصغيرة
+			vw = width/2;
+			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b11,#b22,#b33,#b44,#b55,#b66,#b77').stop();
+			$('#b1,#b11').css({top:240, left: vw - 3*gap});
+			$('#b2,#b22').css({top:240, left: vw - 2*gap});
+			$('#b3,#b33').css({top:240, left: vw - gap});
+			$('#b4,#b44').css({top:240, left: vw});
+			$('#b5,#b55').css({top:240, left: vw + gap});
+			$('#b6,#b66').css({top:240, left: vw + 2*gap});
+			$('#b7,#b77').css({top:240, left: vw + 3*gap});
+		}
+
+		// نضبط مكان الحروف بس لو وصلنا فعلاً لمرحلة التجميع (منعًا لظهور البلالين بدري)
 		$(window).resize(function(){
-			 vw = $(window).width()/2;
-			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
-			$('#b11').animate({top:240, left: vw-350},500);
-			$('#b22').animate({top:240, left: vw-250},500);
-			$('#b33').animate({top:240, left: vw-150},500);
-			$('#b44').animate({top:240, left: vw-50},500);
-			$('#b55').animate({top:240, left: vw+50},500);
-			$('#b66').animate({top:240, left: vw+150},500);
-			$('#b77').animate({top:240, left: vw+250},500);
+			if (wordGrouped) {
+				positionBalloons();
+			}
 		});
 
 	$('#turn_on').click(function(){
@@ -140,9 +151,7 @@ $('document').ready(function(){
 
 		
 	$('#wish_message').click(function(){
-		 vw = $(window).width()/2;
-
-		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
+		wordGrouped = true;
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
 		$('#b3').attr('id','b33')
@@ -150,13 +159,7 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:240, left: vw-350},500);
-		$('#b22').animate({top:240, left: vw-250},500);
-		$('#b33').animate({top:240, left: vw-150},500);
-		$('#b44').animate({top:240, left: vw-50},500);
-		$('#b55').animate({top:240, left: vw+50},500);
-		$('#b66').animate({top:240, left: vw+150},500);
-		$('#b77').animate({top:240, left: vw+250},500);
+		positionBalloons();
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){

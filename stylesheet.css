@@ -24,92 +24,39 @@ body {
 }
 
 @-webkit-keyframes peach_alive {
-	0%{
-		background-color: #FFDAB9;
-	}
-	25%{
-		background-color: #FFE4B5;
-	}
-	50%{
-		background-color: #FFDAB9;
-	}
-	75%{
-		background-color: #FFEFD5;
-	}
-	100%{
-		background-color: #FFDAB9;
-	}
+	0%{ background-color: #FFDAB9; }
+	25%{ background-color: #FFE4B5; }
+	50%{ background-color: #FFDAB9; }
+	75%{ background-color: #FFEFD5; }
+	100%{ background-color: #FFDAB9; }
 }
 @-moz-keyframes peach_alive {
-	0%{
-		background-color: #FFDAB9;
-	}
-	25%{
-		background-color: #FFE4B5;
-	}
-	50%{
-		background-color: #FFDAB9;
-	}
-	75%{
-		background-color: #FFEFD5;
-	}
-	100%{
-		background-color: #FFDAB9;
-	}
+	0%{ background-color: #FFDAB9; }
+	25%{ background-color: #FFE4B5; }
+	50%{ background-color: #FFDAB9; }
+	75%{ background-color: #FFEFD5; }
+	100%{ background-color: #FFDAB9; }
 }
-
 @-o-keyframes peach_alive {
-	0%{
-		background-color: #FFDAB9;
-	}
-	25%{
-		background-color: #FFE4B5;
-	}
-	50%{
-		background-color: #FFDAB9;
-	}
-	75%{
-		background-color: #FFEFD5;
-	}
-	100%{
-		background-color: #FFDAB9;
-	}
+	0%{ background-color: #FFDAB9; }
+	25%{ background-color: #FFE4B5; }
+	50%{ background-color: #FFDAB9; }
+	75%{ background-color: #FFEFD5; }
+	100%{ background-color: #FFDAB9; }
 }
-
 @-ms-keyframes peach_alive {
-	0%{
-		background-color: #FFDAB9;
-	}
-	25%{
-		background-color: #FFE4B5;
-	}
-	50%{
-		background-color: #FFDAB9;
-	}
-	75%{
-		background-color: #FFEFD5;
-	}
-	100%{
-		background-color: #FFDAB9;
-	}
+	0%{ background-color: #FFDAB9; }
+	25%{ background-color: #FFE4B5; }
+	50%{ background-color: #FFDAB9; }
+	75%{ background-color: #FFEFD5; }
+	100%{ background-color: #FFDAB9; }
 }
-
 @keyframes peach_alive {
-	0%{
-		background-color: #FFDAB9;
-	}
-	25%{
-		background-color: #FFE4B5;
-	}
-	50%{
-		background-color: #FFDAB9;
-	}
-	75%{
-		background-color: #FFEFD5;
-	}
-	100%{
-		background-color: #FFDAB9;
-	}
+	0%{ background-color: #FFDAB9; }
+	25%{ background-color: #FFE4B5; }
+	50%{ background-color: #FFDAB9; }
+	75%{ background-color: #FFEFD5; }
+	100%{ background-color: #FFDAB9; }
 }
 
 
@@ -136,69 +83,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_yellow {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_yellow.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_yellow.png'); opacity: 1; }
 }
 @-moz-keyframes bulb_glow_yellow {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_yellow.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_yellow.png'); opacity: 1; }
 }
 @-o-keyframes bulb_glow_yellow {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_yellow.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_yellow.png'); opacity: 1; }
 }
 @-ms-keyframes bulb_glow_yellow {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_yellow.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_yellow.png'); opacity: 1; }
 }
 @keyframes bulb_glow_yellow {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_yellow.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_yellow.png'); opacity: 1; }
 }
 
 .bulb-glow-red {
@@ -211,69 +118,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_red {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_red.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_red.png'); opacity: 1; }
 }
 @-moz-keyframes bulb_glow_red {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_red.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_red.png'); opacity: 1; }
 }
 @-o-keyframes bulb_glow_red {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_red.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_red.png'); opacity: 1; }
 }
 @-ms-keyframes bulb_glow_red {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_red.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_red.png'); opacity: 1; }
 }
 @keyframes bulb_glow_red {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_red.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_red.png'); opacity: 1; }
 }
 .bulb-glow-blue {
 	background-image: url('bulb_blue.png');
@@ -285,69 +152,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_blue {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_blue.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_blue.png'); opacity: 1; }
 }
 @-moz-keyframes bulb_glow_blue {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_blue.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_blue.png'); opacity: 1; }
 }
 @-o-keyframes bulb_glow_blue {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_blue.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_blue.png'); opacity: 1; }
 }
 @-ms-keyframes bulb_glow_blue {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_blue.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_blue.png'); opacity: 1; }
 }
 @keyframes bulb_glow_blue {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_blue.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_blue.png'); opacity: 1; }
 }
 
 .bulb-glow-green {
@@ -360,69 +187,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_green {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_green.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_green.png'); opacity: 1; }
 }
 @-moz-keyframes bulb_glow_green {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_green.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_green.png'); opacity: 1; }
 }
 @-o-keyframes bulb_glow_green {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_green.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_green.png'); opacity: 1; }
 }
 @-ms-keyframes bulb_glow_green {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_green.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_green.png'); opacity: 1; }
 }
 @keyframes bulb_glow_green {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_green.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_green.png'); opacity: 1; }
 }
 
 .bulb-glow-pink {
@@ -435,69 +222,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_pink {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_pink.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_pink.png'); opacity: 1; }
 }
 @-moz-keyframes bulb_glow_pink {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_pink.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_pink.png'); opacity: 1; }
 }
 @-o-keyframes bulb_glow_pink {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_pink.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_pink.png'); opacity: 1; }
 }
 @-ms-keyframes bulb_glow_pink {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_pink.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_pink.png'); opacity: 1; }
 }
 @keyframes bulb_glow_pink {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_pink.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_pink.png'); opacity: 1; }
 }
 
 .bulb-glow-orange {
@@ -510,69 +257,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_orange {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_orange.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_orange.png'); opacity: 1; }
 }
 @-moz-keyframes bulb_glow_orange {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_orange.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_orange.png'); opacity: 1; }
 }
 @-o-keyframes bulb_glow_orange {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_orange.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_orange.png'); opacity: 1; }
 }
 @-ms-keyframes bulb_glow_orange {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_orange.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_orange.png'); opacity: 1; }
 }
 @keyframes bulb_glow_orange {
-	0%{
-		background-image: url('bulb.png');
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		background-image: url('bulb_orange.png');
-		opacity: 1;
-	}
+	0%{ background-image: url('bulb.png'); opacity: 0; }
+	50%{ opacity: 1; }
+	100%{ background-image: url('bulb_orange.png'); opacity: 1; }
 }
 
 
@@ -587,59 +294,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_yellow_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_yellow.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_yellow.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-moz-keyframes bulb_glow_yellow_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_yellow.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_yellow.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-o-keyframes bulb_glow_yellow_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_yellow.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_yellow.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-ms-keyframes bulb_glow_yellow_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_yellow.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_yellow.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @keyframes bulb_glow_yellow_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_yellow.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_yellow.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 
 .bulb-glow-red-after {
@@ -652,59 +329,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_red_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_red.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_red.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-moz-keyframes bulb_glow_red_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_red.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_red.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-o-keyframes bulb_glow_red_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_red.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_red.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-ms-keyframes bulb_glow_red_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_red.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_red.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @keyframes bulb_glow_red_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_red.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_red.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 
 .bulb-glow-blue-after {
@@ -717,59 +364,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_blue_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_blue.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_blue.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-moz-keyframes bulb_glow_blue_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_blue.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_blue.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-o-keyframes bulb_glow_blue_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_blue.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_blue.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-ms-keyframes bulb_glow_blue_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_blue.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_blue.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @keyframes bulb_glow_blue_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_blue.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_blue.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 .bulb-glow-green-after {
 	background-image: url('bulb_green.png');
@@ -781,60 +398,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_green_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_green.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_green.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
-
 @-moz-keyframes bulb_glow_green_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_green.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_green.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-o-keyframes bulb_glow_green_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_green.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_green.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-ms-keyframes bulb_glow_green_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_green.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_green.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @keyframes bulb_glow_green_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_green.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_green.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 .bulb-glow-pink-after {
 	background-image: url('bulb_pink.png');
@@ -846,59 +432,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_pink_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_pink.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_pink.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-moz-keyframes bulb_glow_pink_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_pink.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_pink.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-o-keyframes bulb_glow_pink_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_pink.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_pink.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-ms-keyframes bulb_glow_pink_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_pink.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_pink.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @keyframes bulb_glow_pink_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_pink.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_pink.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 .bulb-glow-orange-after {
 	background-image: url('bulb_orange.png');
@@ -910,59 +466,29 @@ body {
 }
 
 @-webkit-keyframes bulb_glow_orange_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_orange.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_orange.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-moz-keyframes bulb_glow_orange_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_orange.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_orange.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-o-keyframes bulb_glow_orange_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_orange.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_orange.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @-ms-keyframes bulb_glow_orange_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_orange.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_orange.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 @keyframes bulb_glow_orange_after {
-	0%{
-		background-image: url('bulb.png');
-	}
-	50%{
-		background-image: url('bulb_orange.png');
-	}
-	100%{
-		background-image: url('bulb.png');
-	}
+	0%{ background-image: url('bulb.png'); }
+	50%{ background-image: url('bulb_orange.png'); }
+	100%{ background-image: url('bulb.png'); }
 }
 audio {
 	display: none;
@@ -990,89 +516,34 @@ audio {
 	transform:translate(0px,0px);
 }
 @-webkit-keyframes bannar_come {
-	0%{
-		-webkit-transform:translate(0px,-1000px);
-	}
-	33%{
-		-webkit-transform:translate(0px,0px);
-		-webkit-transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
-	}
-	66% {
-		-webkit-transform:translate(0px,100px);
-		-webkit-transform:rotate(-10deg);
-	}
-	100% {
-		-webkit-transform:translate(0px,0px);
-	}
+	0%{ -webkit-transform:translate(0px,-1000px); }
+	33%{ -webkit-transform:translate(0px,0px); -webkit-transform:rotate(10deg); }
+	66% { -webkit-transform:translate(0px,100px); -webkit-transform:rotate(-10deg); }
+	100% { -webkit-transform:translate(0px,0px); }
 }
 @-moz-keyframes bannar_come {
-	0%{
-		-moz-transform:translate(0px,-1000px);
-	}
-	33%{
-		-moz-transform:translate(0px,0px);
-		-moz-transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
-	}
-	66% {
-		-moz-transform:translate(0px,100px);
-		-moz-transform:rotate(-10deg);
-	}
-	100% {
-		-moz-transform:translate(0px,0px);
-	}
+	0%{ -moz-transform:translate(0px,-1000px); }
+	33%{ -moz-transform:translate(0px,0px); -moz-transform:rotate(10deg); }
+	66% { -moz-transform:translate(0px,100px); -moz-transform:rotate(-10deg); }
+	100% { -moz-transform:translate(0px,0px); }
 }
 @-o-keyframes bannar_come {
-	0%{
-		-o-transform:translate(0px,-1000px);
-	}
-	33%{
-		-o-transform:translate(0px,0px);
-		-o-transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
-	}
-	66% {
-		-o-transform:translate(0px,100px);
-		-o-transform:rotate(-10deg);
-	}
-	100% {
-		-o-transform:translate(0px,0px);
-	}
+	0%{ -o-transform:translate(0px,-1000px); }
+	33%{ -o-transform:translate(0px,0px); -o-transform:rotate(10deg); }
+	66% { -o-transform:translate(0px,100px); -o-transform:rotate(-10deg); }
+	100% { -o-transform:translate(0px,0px); }
 }
 @-ms-keyframes bannar_come {
-	0%{
-		-ms-transform:translate(0px,-1000px);
-	}
-	33%{
-		-ms-transform:translate(0px,0px);
-		-ms-transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
-	}
-	66% {
-		-ms-transform:translate(0px,100px);
-		-ms-transform:rotate(-10deg);
-	}
-	100% {
-		-ms-transform:translate(0px,0px);
-	}
-}o
+	0%{ -ms-transform:translate(0px,-1000px); }
+	33%{ -ms-transform:translate(0px,0px); -ms-transform:rotate(10deg); }
+	66% { -ms-transform:translate(0px,100px); -ms-transform:rotate(-10deg); }
+	100% { -ms-transform:translate(0px,0px); }
+}
 @keyframes bannar_come {
-	0%{
-		transform:translate(0px,-1000px);
-	}
-	33%{
-		transform:translate(0px,0px);
-		transform:rotate(10deg);
-		/*-webkit-transform:scale(1.5);*/
-	}
-	66% {
-		transform:translate(0px,100px);
-		transform:rotate(-10deg);
-	}
-	100% {
-		transform:translate(0px,0px);
-	}
+	0%{ transform:translate(0px,-1000px); }
+	33%{ transform:translate(0px,0px); transform:rotate(10deg); }
+	66% { transform:translate(0px,100px); transform:rotate(-10deg); }
+	100% { transform:translate(0px,0px); }
 }
 
 .balloons {
@@ -1127,59 +598,29 @@ audio {
 	transform: rotate(30deg);
 }
 @-webkit-keyframes balloons_rotate_one {
-	0% {
-		-webkit-transform: rotate(30deg);
-	}
-	50% {
-		-webkit-transform: rotate(-30deg);
-	}
-	100% {
-		-webkit-transform: rotate(30deg);
-	}
+	0% { -webkit-transform: rotate(30deg); }
+	50% { -webkit-transform: rotate(-30deg); }
+	100% { -webkit-transform: rotate(30deg); }
 }
 @-moz-keyframes balloons_rotate_one {
-	0% {
-		-moz-transform: rotate(30deg);
-	}
-	50% {
-		-moz-transform: rotate(-30deg);
-	}
-	100% {
-		-moz-transform: rotate(30deg);
-	}
+	0% { -moz-transform: rotate(30deg); }
+	50% { -moz-transform: rotate(-30deg); }
+	100% { -moz-transform: rotate(30deg); }
 }
 @-o-keyframes balloons_rotate_one {
-	0% {
-		-o-transform: rotate(30deg);
-	}
-	50% {
-		-o-transform: rotate(-30deg);
-	}
-	100% {
-		-o-transform: rotate(30deg);
-	}
+	0% { -o-transform: rotate(30deg); }
+	50% { -o-transform: rotate(-30deg); }
+	100% { -o-transform: rotate(30deg); }
 }
 @-ms-keyframes balloons_rotate_one {
-	0% {
-		-ms-transform: rotate(30deg);
-	}
-	50% {
-		-ms-transform: rotate(-30deg);
-	}
-	100% {
-		-ms-transform: rotate(30deg);
-	}
+	0% { -ms-transform: rotate(30deg); }
+	50% { -ms-transform: rotate(-30deg); }
+	100% { -ms-transform: rotate(30deg); }
 }
 @keyframes balloons_rotate_one {
-	0% {
-		transform: rotate(30deg);
-	}
-	50% {
-		transform: rotate(-30deg);
-	}
-	100% {
-		transform: rotate(30deg);
-	}
+	0% { transform: rotate(30deg); }
+	50% { transform: rotate(-30deg); }
+	100% { transform: rotate(30deg); }
 }
 .balloons-rotate-behaviour-two {
 	-webkit-animation: balloons_rotate_two linear 10s infinite;
@@ -1194,59 +635,29 @@ audio {
 	transform: rotate(-20deg);
 }
 @-webkit-keyframes balloons_rotate_two {
-	0% {
-		-webkit-transform: rotate(-20deg);
-	}
-	50% {
-		-webkit-transform: rotate(20deg);
-	}
-	100% {
-		-webkit-transform: rotate(-20deg);
-	}
+	0% { -webkit-transform: rotate(-20deg); }
+	50% { -webkit-transform: rotate(20deg); }
+	100% { -webkit-transform: rotate(-20deg); }
 }
 @-moz-keyframes balloons_rotate_two {
-	0% {
-		-moz-transform: rotate(-20deg);
-	}
-	50% {
-		-moz-transform: rotate(20deg);
-	}
-	100% {
-		-moz-transform: rotate(-20deg);
-	}
+	0% { -moz-transform: rotate(-20deg); }
+	50% { -moz-transform: rotate(20deg); }
+	100% { -moz-transform: rotate(-20deg); }
 }
 @-o-keyframes balloons_rotate_two {
-	0% {
-		-o-transform: rotate(-20deg);
-	}
-	50% {
-		-o-transform: rotate(20deg);
-	}
-	100% {
-		-o-transform: rotate(-20deg);
-	}
+	0% { -o-transform: rotate(-20deg); }
+	50% { -o-transform: rotate(20deg); }
+	100% { -o-transform: rotate(-20deg); }
 }
 @-ms-keyframes balloons_rotate_two {
-	0% {
-		-ms-transform: rotate(-20deg);
-	}
-	50% {
-		-ms-transform: rotate(20deg);
-	}
-	100% {
-		-ms-transform: rotate(-20deg);
-	}
+	0% { -ms-transform: rotate(-20deg); }
+	50% { -ms-transform: rotate(20deg); }
+	100% { -ms-transform: rotate(-20deg); }
 }
 @keyframes balloons_rotate_two {
-	0% {
-		transform: rotate(-20deg);
-	}
-	50% {
-		transform: rotate(20deg);
-	}
-	100% {
-		transform: rotate(-20deg);
-	}
+	0% { transform: rotate(-20deg); }
+	50% { transform: rotate(20deg); }
+	100% { transform: rotate(-20deg); }
 }
 
 .balloon-border{
@@ -1308,3 +719,26 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+/* تصغير حجم البلالين في شاشات الموبايل عشان السبع بلالين تظهر كلها من غير ما تخرج برا الشاشة */
+@media only screen and (max-width: 480px) {
+	.balloons {
+		width: 60px;
+		height: 110px;
+		background-size: 60px 110px;
+	}
+	.balloons h2 {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.balloons {
+		width: 80px;
+		height: 146px;
+		background-size: 80px 146px;
+	}
+	.balloons h2 {
+		font-size: 40px;
+	}
+}
